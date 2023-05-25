@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.home{
+   
+    background-image: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.homep{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button{
+    display: block;
+    width: 150px;
+    margin: 15px;
+    height: 30px;
+
+   
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #ff003b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .button span{
+    position: relative;
+    z-index: 2;
+    font-size: 15px;
+    text-transform: capitalize;
+ 
+  }
+  
+  .button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 30px;
+    background: #ff003b;
+    transition: all .35s;
+  }
+  
+  .button:hover{
+    color: #fff;
+  }
+  
+  .button:hover:after{
+    width: 100%;
+  }

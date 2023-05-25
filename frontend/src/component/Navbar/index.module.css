@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;  
+text-decoration: none;
+}
+.links {
+    color: white;
+ 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-around;
+}
+nav ul{
+display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+}
+
+.links:hover{
+    
+    color:#d73e4d;
+
+}
+body{
+    overflow-x: hidden;
+}
